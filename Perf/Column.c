@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <sys/time.h>
+#include <time.h>
 #include <stdlib.h>
 
 const int n = 1024;
@@ -31,5 +32,5 @@ void main() {
     gettimeofday(&end, NULL);
     long long int runTime = (end.tv_sec - begin.tv_sec)*1000000;
     runTime += end.tv_usec-begin.tv_usec;
-    printf("%lld", runTime);
+    printf("%lld\n", runTime);
 }

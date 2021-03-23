@@ -1,0 +1,26 @@
+275552
+284540
+280058
+281714
+285760
+279534
+291724
+292301
+290572
+280735
+ Performance counter stats for './Column' (10 runs):
+
+    1,22,01,31,038      cpu-cycles                                                    ( +-  0.42% )  (35.09%)
+    4,21,75,73,372      instructions              #    3.46  insn per cycle           ( +-  0.21% )  (44.41%)
+      31,02,54,606      branches                                                      ( +-  0.57% )  (44.52%)
+      15,31,79,245      cache-references                                              ( +-  0.28% )  (45.10%)
+         64,67,021      cache-misses              #    4.222 % of all cache refs      ( +-  6.97% )  (45.96%)
+    1,10,11,10,386      L1-dcache-loads                                               ( +-  0.27% )  (46.38%)
+       7,03,05,796      L1-dcache-load-misses     #    6.38% of all L1-dcache hits    ( +-  0.41% )  (37.06%)
+    1,12,66,23,317      dTLB-loads                                                    ( +-  0.21% )  (37.06%)
+         21,79,285      dTLB-load-misses          #    0.19% of all dTLB cache hits   ( +-  0.33% )  (36.95%)
+         57,12,296      LLC-loads                                                     ( +-  2.34% )  (36.37%)
+          1,32,096      LLC-load-misses           #    2.31% of all LL-cache hits     ( +- 22.12% )  (35.51%)
+      30,24,36,398 ns   duration_time                                                 ( +-  0.56% )
+
+           0.30244 +- 0.00168 seconds time elapsed  ( +-  0.56% )

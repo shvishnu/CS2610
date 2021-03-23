@@ -1,0 +1,26 @@
+854116
+854246
+856892
+853138
+848646
+852802
+847722
+848308
+859173
+848572
+ Performance counter stats for './Row' (10 runs):
+
+    3,54,25,60,346      cpu-cycles                                                    ( +-  0.14% )  (35.63%)
+    7,68,13,87,755      instructions              #    2.17  insn per cycle           ( +-  0.04% )  (44.83%)
+    1,11,50,11,913      branches                                                      ( +-  0.14% )  (45.00%)
+      19,69,32,139      cache-references                                              ( +-  1.84% )  (45.30%)
+         15,30,218      cache-misses              #    0.777 % of all cache refs      ( +-  5.38% )  (45.71%)
+    3,25,06,06,232      L1-dcache-loads                                               ( +-  0.07% )  (45.99%)
+    1,28,07,95,868      L1-dcache-load-misses     #   39.40% of all L1-dcache hits    ( +-  0.13% )  (36.79%)
+    3,27,15,37,751      dTLB-loads                                                    ( +-  0.09% )  (36.78%)
+         19,07,035      dTLB-load-misses          #    0.06% of all dTLB cache hits   ( +- 11.62% )  (36.61%)
+       7,58,64,930      LLC-loads                                                     ( +-  1.86% )  (36.30%)
+          3,10,057      LLC-load-misses           #    0.41% of all LL-cache hits     ( +-  7.35% )  (35.90%)
+      86,99,75,974 ns   duration_time                                                 ( +-  0.15% )
+
+           0.86998 +- 0.00133 seconds time elapsed  ( +-  0.15% )

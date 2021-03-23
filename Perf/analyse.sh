@@ -1,0 +1,2 @@
+sudo perf stat -r 10 -e cpu-cycles,instructions,branches,cache-references,cache-misses,L1-dcache-loads,L1-dcache-load-misses,dTLB-loads,dTLB-load-misses,LLC-loads,LLC-load-misses,duration_time ./Row
+sudo perf stat -r 10 -e cpu-cycles,instructions,branches,cache-references,cache-misses,L1-dcache-loads,L1-dcache-load-misses,dTLB-loads,dTLB-load-misses,LLC-loads,LLC-load-misses,duration_time ./Column

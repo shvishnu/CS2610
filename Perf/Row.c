@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <sys/time.h>
+#include <time.h>
 #include <stdlib.h>
 
 const int n = 1024;
@@ -21,7 +22,7 @@ void main() {
     }
 
     gettimeofday(&begin, NULL);
-    for(int i  = 0; i < n; i++) {
+    for(int i  = 0; i < n; i++) {   
         for(int j = 0; j < n; j++) {
             C[i][j] = 0;
             for(int k = 0; k < n; k++) {
@@ -32,5 +33,5 @@ void main() {
     gettimeofday(&end, NULL);
     long long int runTime = (end.tv_sec - begin.tv_sec)*1000000;
     runTime += end.tv_usec-begin.tv_usec;
-    printf("%lld", runTime);
+    printf("%lld\n", runTime);
 }
